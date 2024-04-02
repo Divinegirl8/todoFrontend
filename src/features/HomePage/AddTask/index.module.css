@@ -1,0 +1,24 @@
+.mainCont{
+background-image: url("../../../assest/HomePageImg/to-do-list-2.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.btnCont{
+    display: flex;
+    justify-content: center;
+    min-height: 95vh;
+    align-items: center;
+}
+
+.btnCont button{
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
