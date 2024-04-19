@@ -1,6 +1,7 @@
 import HomePage from "../features/HomePage";
 import AddTask from "../features/HomePage/AddTask";
 import CreateTask from "../features/HomePage/CreateTask";
+import AllTask from "../features/HomePage/AllTask";
 
 export const Routes = [
     {
@@ -13,5 +14,9 @@ export const Routes = [
     {
         path: "/create/:userId",
         element: <CreateTask/>
+    },
+    {
+        path: "/allTask/:userId",
+        element: <AllTask/>
     }
 ]

@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import { useNavigate } from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import React from 'react'; //
 
 const AddTask = () => {
