@@ -20,11 +20,13 @@ body{
     padding-left: 10px;
 }
 
-.txt,.dta,.tim{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
+
+
+/*.txt,.dta,.tim{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 5px;*/
+/*}
 
 .btn{
     margin-left: -290px;
